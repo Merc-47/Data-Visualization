@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/geodata/continentsLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+
+
+    <style>
+      #chartdiv {
+        width: 100%;
+        height: 500px;
+      }
+    .info{
+      padding: 20px;
+      margin: 20px;
+    }
+    .left{
+  width: 400px;
+  margin-left: 20px;
+  margin-right:0px;
+  float:left;
+  position:absolute;
+    top: 126px;
+  }
+  .right{
+  width: 850px;
+  margin-right: 20px;
+  margin-left:0px;
+  float:right;
+  border:solid;
+  }
+  .center{
+    width:1300px;
+    height:400px;
+  }
+  
+      </style>
+</head>
+<body>
+
+  <div class="info">
+  <center><h2>Unemployment rate in each continent</h2></center>
+</div>
+
+<div class="center">
+  <div class="right">
+
+          
+            <div id="chartdiv"></div>
+         </div>
+        </div>
+        <div class="left">
+            <table class="table table-hover table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Continents</th>
+                  <th scope="col">2021 Unemployment rate </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Africa</th>
+                 <td>7.7%</td>
+                 </tr>
+                 <th scope="row">Asia</th>
+                 <td>3.6%</td>
+               </tr>
+               <tr>
+                 <th scope="row">Europe</th>
+                 <td>7.0%</td>
+               </tr>
+               <tr>
+                 <th scope="row">North America</th>
+                 <td>5.7%</td>
+               </tr>
+               <tr>
+                 <th scope="row">Oceania</th>
+                 <td>5.1%</td>
+               </tr>
+               <tr>
+                 <th scope="row">South America</th>
+                 <td>10.0%</td>
+               </tr>
+              </tbody>
+            </table>
+          </div>
+          </div> 
+          <div class="cenetr">
+            <div class="d-flex justify-content-center">
+             <div class="info">
+              <form method="get" action="http://localhost:8080/Years" target="blank">
+              <button  onclick="sendMessage()" type="submit" class="btn btn-primary">Get all Unemployment Rates</button>
+              </form>
+            </div>
+            </div>
+            
+              <div class="card-deck">
+                    <div class="card">
+                      <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  height="300px" 
+                      src="https://charts.mongodb.com/charts-project-0-gpdlb/embed/charts?id=63c790c9-f4f6-47f6-8fa2-ffb4b8eab10d&maxDataAge=60&theme=light&autoRefresh=true"></iframe>
+                      <div class="card-body">
+                      <p class="card-text">Unemployement rate in the past year.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" height="300px"
+                       src="https://charts.mongodb.com/charts-project-0-gpdlb/embed/charts?id=63c79d77-f4f6-40b9-8c1e-ffb4b8f071f8&maxDataAge=60&theme=light&autoRefresh=true"></iframe>
+                      <div class="card-body">
+                      <p class="card-text">Total Unemployment rate in the past years.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                       <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"height="300px"
+                      src="https://charts.mongodb.com/charts-project-0-gpdlb/embed/charts?id=63c6b197-5398-48b1-8a20-6e83f4669ad0&maxDataAge=60&theme=light&autoRefresh=true"></iframe>
+                      <div class="card-body">
+                      <p class="card-text">Unemployment rate in this year.</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+    <br>
+
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Continents</th>
+            <th scope="col">Lowest rate</th>
+            <th scope="col">Lowest year</th>
+            <th scope="col">Higest rate</th>
+            <th scope="col">Higest year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <tr>
+             <th scope="row">Africa</th>
+            <td>5.7%</td>
+            <td>2013</td>
+            <td>7.7%</td>
+            <td>2021</td>
+            </tr>
+            <th scope="row">Asia</th>
+            <td>2.4%</td>
+            <td>2019</td>
+            <td>7.2%</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <th scope="row">Europe</th>
+            <td>6.7%</td>
+            <td>2019</td>
+            <td>11.3%</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <th scope="row">North America</th>
+            <td>3.9%</td>
+            <td>2019</td>
+            <td>9.5%</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <th scope="row">Oceania</th>
+            <td>5.1%</td>
+            <td>2021,2011</td>
+            <td>6.5%</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <th scope="row">South America</th>
+            <td>6.2%</td>
+            <td>2014</td>
+            <td>10.1%</td>
+            <td>2020</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <script src="Modelsocket.js"></script>
+      <script src="Viewindexmap.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
