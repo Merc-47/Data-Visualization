@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "63bedf19948aa85906930087"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2021,
+  "Rate": 7.7
+},{
+  "_id": {
+    "$oid": "63bedf19948aa85906930088"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2021,
+  "Rate": 3.6
+},{
+  "_id": {
+    "$oid": "63bedf19948aa85906930089"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2021,
+  "Rate": 7
+},{
+  "_id": {
+    "$oid": "63bedf19948aa8590693008a"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2021,
+  "Rate": 5.7
+},{
+  "_id": {
+    "$oid": "63bedf19948aa8590693008b"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2021,
+  "Rate": 5.1
+},{
+  "_id": {
+    "$oid": "63bedf19948aa8590693008c"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2021,
+  "Rate": 10
+}]

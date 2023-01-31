@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fd7"
+  },
+  "Year": 2021,
+  "Rate": 39.1
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fd8"
+  },
+  "Year": 2020,
+  "Rate": 45
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fd9"
+  },
+  "Year": 2019,
+  "Rate": 32.7
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fde"
+  },
+  "Year": 2014,
+  "Rate": 39.5
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fe0"
+  },
+  "Year": 2012,
+  "Rate": 42.9
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fe2"
+  },
+  "Year": 2010,
+  "Rate": 44.5
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fda"
+  },
+  "Year": 2018,
+  "Rate": 34.2
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fe1"
+  },
+  "Year": 2011,
+  "Rate": 42.9
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fdb"
+  },
+  "Year": 2017,
+  "Rate": 34.6
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fdc"
+  },
+  "Year": 2016,
+  "Rate": 36.5
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fdd"
+  },
+  "Year": 2015,
+  "Rate": 38.1
+},{
+  "_id": {
+    "$oid": "63c79b1a56a66cd2f1e89fdf"
+  },
+  "Year": 2013,
+  "Rate": 40.5
+}]

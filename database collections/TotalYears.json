@@ -1,0 +1,577 @@
+[{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643942"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2021,
+  "Rate": 7.7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643943"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2021,
+  "Rate": 3.6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643944"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2021,
+  "Rate": 7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643945"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2021,
+  "Rate": 5.7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643946"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2021,
+  "Rate": 5.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643947"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2021,
+  "Rate": 10
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643948"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2020,
+  "Rate": 7.3
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643949"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2020,
+  "Rate": 5.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64394a"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2020,
+  "Rate": 7.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64394b"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2020,
+  "Rate": 8.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64394c"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2020,
+  "Rate": 6.5
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64394d"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2020,
+  "Rate": 10.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64394e"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2019,
+  "Rate": 6.6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64394f"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2019,
+  "Rate": 2.4
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643950"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2019,
+  "Rate": 6.7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643951"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2019,
+  "Rate": 3.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643952"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2019,
+  "Rate": 5.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643953"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2019,
+  "Rate": 7.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643954"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2018,
+  "Rate": 6.5
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643955"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2018,
+  "Rate": 3.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643956"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2018,
+  "Rate": 7.3
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643957"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2018,
+  "Rate": 4.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643958"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2018,
+  "Rate": 5.3
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643959"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2018,
+  "Rate": 7.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64395a"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2017,
+  "Rate": 6.5
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64395b"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2017,
+  "Rate": 2.4
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64395c"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2017,
+  "Rate": 8.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64395d"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2017,
+  "Rate": 4
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64395e"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2017,
+  "Rate": 5.6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64395f"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2017,
+  "Rate": 8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643960"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2016,
+  "Rate": 6.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643961"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2016,
+  "Rate": 2.6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643962"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2016,
+  "Rate": 9.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643963"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2016,
+  "Rate": 5.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643964"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2016,
+  "Rate": 5.7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643965"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2016,
+  "Rate": 7.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643966"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2015,
+  "Rate": 5.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643967"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2015,
+  "Rate": 4
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643968"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2015,
+  "Rate": 10
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643969"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2015,
+  "Rate": 5.5
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64396a"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2015,
+  "Rate": 6.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64396b"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2015,
+  "Rate": 6.6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64396c"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2014,
+  "Rate": 5.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64396d"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2014,
+  "Rate": 4.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64396e"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2014,
+  "Rate": 10.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64396f"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2014,
+  "Rate": 6.3
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643970"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2014,
+  "Rate": 6.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643971"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2014,
+  "Rate": 6.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643972"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2013,
+  "Rate": 5.7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643973"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2013,
+  "Rate": 4.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643974"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2013,
+  "Rate": 11.3
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643975"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2013,
+  "Rate": 7.3
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643976"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2013,
+  "Rate": 5.7
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643977"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2013,
+  "Rate": 6.4
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643978"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2012,
+  "Rate": 5.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643979"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2012,
+  "Rate": 6.6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64397a"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2012,
+  "Rate": 10.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64397b"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2012,
+  "Rate": 8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64397c"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2012,
+  "Rate": 5.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64397d"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2012,
+  "Rate": 6.4
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64397e"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2011,
+  "Rate": 5.9
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c64397f"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2011,
+  "Rate": 6.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643980"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2011,
+  "Rate": 9.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643981"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2011,
+  "Rate": 8.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643982"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2011,
+  "Rate": 5.1
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643983"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2011,
+  "Rate": 6.5
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643984"
+  },
+  "CID": 1,
+  "Continent": "Africa",
+  "Year": 2010,
+  "Rate": 6
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643985"
+  },
+  "CID": 2,
+  "Continent": "Asia",
+  "Year": 2010,
+  "Rate": 7.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643986"
+  },
+  "CID": 3,
+  "Continent": "Europe",
+  "Year": 2010,
+  "Rate": 9.8
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643987"
+  },
+  "CID": 4,
+  "Continent": "North America",
+  "Year": 2010,
+  "Rate": 9.5
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643988"
+  },
+  "CID": 5,
+  "Continent": "Oceania",
+  "Year": 2010,
+  "Rate": 5.2
+},{
+  "_id": {
+    "$oid": "63c8ed04d8c41f466c643989"
+  },
+  "CID": 6,
+  "Continent": "South America",
+  "Year": 2010,
+  "Rate": 6.8
+}]
